@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Snake</title>
+</head>
+
+<body>
+
+  <h1 id="title">Snake</h1>
+  <div id="buttonGroup">
+    <button id="buttonEasy" class="button">Mode facile</button>
+    <button id="buttonMedium" class="button">Mode normal</button>
+    <button id="buttonHard" class="button">Mode difficile</button>
+    <button id="buttonHome" class="hidden">Retour au menu</button>
+  </div><br>
+  <div id="scoreDiv" class="hidden">
+    <h3>Score : <span id="score">0</span></h3>
+  </div>
+  <div id="presentation">
+    <h2>
+      Jouez au jeu Snake traditionnel dans différents modes.<br><br>
+      Utilisez les touches directionnelles pour vous diriger et manger.<br><br>
+      Évitez les bordures, les murs et le corps du serpent !
+    </h2>
+  </div>
+  <div id="gameEnd" class="hidden">
+    <h1>Game over ! Score : <span id="scoreFinal">0</span></h1>
+  </div>
+  <canvas id="backgroundCanvas"></canvas>
+  
+  <script src="snake.js"></script>
+</body>
+
+</html>

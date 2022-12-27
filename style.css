@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+body {
+    background-image: url("/lib/foggy.png");
+    overflow: hidden;
+    font-family : 'Press Start 2P', cursive;
+}
+
+#backgroundCanvas {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#presentation {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#buttonGroup {
+    text-align: center;
+}
+
+#scoreDiv {
+    position: fixed;
+}
+
+#gameEnd {
+    position:fixed;
+}
+.hidden {
+    display:none
+}
+
+.button {
+    text-align: center;
+    
+    cursor : pointer;
+    background-color:darksalmon;
+    border-radius: 15px;
+    font-family : 'Press Start 2P', cursive;
+
+}
